@@ -46,17 +46,17 @@ Computer Engineering student at ITBA with strong background in low-level systems
 
 #section("Academic Projects")
 
-#project("Robrain", "https://github.com/JuaniRaggio/Robrain", "Brain-Computer Interface for robot control using EMG/EEG signals. Full pipeline: electrode acquisition, Arduino signal processing, host analysis, ESP32 wireless control. Built with C++17, PlatformIO, and Boost.")
-
-#project("SignalForge", "https://github.com/JuaniRaggio/SignalForge", "Market forecasting tool with statistical modeling and signal analysis for quantitative finance applications.")
-
-#project("QuantumJam", "https://github.com/JuaniRaggio/QuantumJam", "BB84 quantum key distribution protocol with error correction and privacy amplification.")
-
 #project("Ares OS", "https://github.com/JuaniRaggio/Ares", "Educational OS built from x86 BareBones without standard libraries. Computer Architecture course.", grade: "10")
+
+#project("Robrain", "https://github.com/JuaniRaggio/Robrain", "Brain-Computer Interface for robot control using EMG/EEG signals. Full pipeline: electrode acquisition, Arduino signal processing, host analysis, ESP32 wireless control. Built with C++17, PlatformIO, and Boost.")
 
 #project("Geometric Paint", "https://github.com/JuaniRaggio/finalpoo", "OOP-based drawing application with clean MVC separation. Object-Oriented Programming course.", grade: "10")
 
 #project("Querying 100M Tickets", "https://github.com/JuaniRaggio/finalpi", "High-performance CSV parser using AVL trees in C. Imperative Programming course.", grade: "10")
+
+#project("SignalForge", "https://github.com/JuaniRaggio/SignalForge", "Market forecasting tool with statistical modeling and signal analysis for quantitative finance applications.")
+
+#project("QuantumJam", "https://github.com/JuaniRaggio/QuantumJam", "BB84 quantum key distribution protocol with error correction and privacy amplification.")
 
 #section("Languages")
 
