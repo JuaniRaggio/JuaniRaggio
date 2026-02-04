@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Juan Ignacio Raggio - 이력서</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/nickvdyck/d2codingfont@master/D2Coding.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'D2Coding', monospace;
+            background: #f7f9fc;
+            padding: 2rem;
+            margin: 0;
+            color: #222;
+        }
+
+        .card {
+            background: #fff;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+            color: #111;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            margin: 0.3rem 0;
+            color: #555;
+        }
+
+        .header a {
+            color: #0366d6;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            font-weight: 500;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        .lang-switch {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .lang-switch a {
+            color: #0366d6;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #1a1a1a;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid #000;
+            display: block;
+            padding-bottom: 0.2rem;
+        }
+
+        p, ul {
+            line-height: 1.7;
+            color: #333;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-date {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .languages-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            text-align: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 0.4rem 0.8rem;
+        }
+
+        .skills li {
+            background: #eef2f6;
+            padding: 0.4rem 0.6rem;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            .languages-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .skills {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+            .card {
+                box-shadow: none;
+                border-radius: 0;
+                padding: 1rem;
+            }
+            .lang-switch {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="lang-switch">
+            <a href="en.html">View in English</a>
+        </div>
+        <div class="header">
+            <h1>Juan Ignacio Raggio</h1>
+            <p>아르헨티나, 부에노스아이레스 |
+                <a href="https://github.com/JuaniRaggio" target="_blank"><i class="fab fa-github"></i> GitHub</a> |
+                <a href="https://www.linkedin.com/in/juan-ignacio-raggio-1a331b2b3/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </p>
+        </div>
+
+        <h2>소개</h2>
+        <p>
+            ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로그래밍, 수학적 모델링에 강점이 있습니다. 임베디드 시스템, 컴퓨터 시뮬레이션, 정량 분석에 열정을 가지고 있습니다.
+        </p>
+
+        <h2>학력</h2>
+        <ul>
+            <li><strong>컴퓨터공학</strong> - Instituto Tecnologico de Buenos Aires (ITBA)</li>
+            <li><strong>자연과학</strong> - Balmoral College (ICE Cambridge)</li>
+        </ul>
+
+        <h2>학술 경험</h2>
+        <ul>
+            <li>
+                <strong>IEEE 로봇 연구팀 @ITBA</strong><br>
+                폴란드에서 열리는 화성 시뮬레이션 대회 European Rover Challenge(ERC)용 로버 개발.
+                <span class="experience-date">2025년 8월 - 현재</span>
+            </li>
+            <li>
+                <strong>컴퓨터 구조 - 조교 @ITBA</strong><br>
+                저수준 시스템 및 어셈블리 학습 지원.
+                <span class="experience-date">2026년 3월 - 현재</span>
+            </li>
+            <li>
+                <strong>객체지향 프로그래밍 (Java 25) - 조교 @ITBA</strong><br>
+                고급 OOP 개념 학습 지원.
+                <span class="experience-date">2025년 8월 - 현재</span>
+            </li>
+            <li>
+                <strong>일반 정보학 (Python) - 조교 @ITBA</strong><br>
+                프로그래밍 기초 학습 지원.
+                <span class="experience-date">2025년 8월 - 2026년 2월</span>
+            </li>
+        </ul>
+
+        <h2>학술 프로젝트</h2>
+        <ul>
+            <li><strong><a href="https://github.com/JuaniRaggio/Ares">Ares OS</a>:</strong> 표준 라이브러리 없이 x86 BareBones로 구축한 교육용 운영체제. 컴퓨터 구조 @ITBA. <em>성적: 10</em></li>
+            <li><strong><a href="https://github.com/JuaniRaggio/Robrain">Robrain</a>:</strong> EMG/EEG 신호를 이용한 로봇 제어 뇌-컴퓨터 인터페이스. 전극 수집, Arduino 신호 처리, 호스트 분석, ESP32 무선 제어 파이프라인. C++17, PlatformIO, Boost 사용.</li>
+            <li><strong><a href="https://www.spacehub.studio">SpaceHub</a>:</strong> AI 챗봇, 위치 기반 추천, 동적 가격 책정을 갖춘 공간 예약 풀스택 플랫폼. 상업적 출시를 앞둔 예비 스타트업.</li>
+            <li><strong><a href="https://github.com/JuaniRaggio/finalpoo">Geometric Paint</a>:</strong> MVC 패턴을 적용한 OOP 기반 그리기 애플리케이션. 객체지향 프로그래밍 @ITBA. <em>성적: 10</em></li>
+            <li><strong><a href="https://github.com/JuaniRaggio/finalpi">Querying 100M Tickets</a>:</strong> C언어로 AVL 트리를 사용한 고성능 CSV 파서. 명령형 프로그래밍 @ITBA. <em>성적: 10</em></li>
+            <li><strong><a href="https://github.com/JuaniRaggio/SignalForge">SignalForge</a>:</strong> 정량 금융 응용을 위한 통계 모델링 및 신호 분석 기반 시장 예측 도구.</li>
+            <li><strong><a href="https://github.com/JuaniRaggio/QuantumJam">QuantumJam</a>:</strong> 오류 정정 및 프라이버시 증폭 기능을 갖춘 BB84 양자 키 분배 프로토콜.</li>
+        </ul>
+
+        <h2>언어</h2>
+        <ul class="languages-grid">
+            <li>스페인어 - 모국어</li>
+            <li>한국어 - 1급</li>
+            <li>영어 - 고급 (FCE)</li>
+            <li>프랑스어 - 초급 (DELF A2)</li>
+        </ul>
+
+        <h2>자격증</h2>
+        <ul>
+            <li>Fat Chance: Probability from the Ground Up - Harvard University</li>
+            <li>First Certificate in English (FCE) - Cambridge</li>
+            <li>DELF A2 - Alliance Francaise</li>
+        </ul>
+
+        <h2>기술 스택</h2>
+        <ul class="skills">
+            <li>C/C++17</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Bash</li>
+            <li>Elixir</li>
+            <li>PlatformIO</li>
+            <li>Maven</li>
+            <li>Golang</li>
+        </ul>
+    </div>
+</body>
+</html>

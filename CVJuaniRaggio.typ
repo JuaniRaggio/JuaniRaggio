@@ -44,7 +44,7 @@ Computer Engineering student at ITBA with strong background in low-level systems
 - *Computer Architecture - Teaching Assistant \@ITBA* \
   Supporting students in low-level systems and assembly. #text(size: 8pt, fill: gray)[Mar 2026 - Present]
 
-- *Object-Oriented Programming - Teaching Assistant \@ITBA* \
+- *Object-Oriented Programming (Java 25) - Teaching Assistant \@ITBA* \
   Supporting students in advanced OOP concepts. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
 
 - *General Informatics (Python) - Teaching Assistant \@ITBA* \
@@ -111,7 +111,7 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
 - *컴퓨터 구조 - 조교 \@ITBA* \
   저수준 시스템 및 어셈블리 학습 지원. #text(size: 8pt, fill: gray)[2026년 3월 - 현재]
 
-- *객체지향 프로그래밍 - 조교 \@ITBA* \
+- *객체지향 프로그래밍 (Java 25) - 조교 \@ITBA* \
   고급 OOP 개념 학습 지원. #text(size: 8pt, fill: gray)[2025년 8월 - 현재]
 
 - *일반 정보학 (Python) - 조교 \@ITBA* \
@@ -151,7 +151,7 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
 
 #section("기술 스택")
 
-#let skills_ko = ("C/C++17", "Java", "Python", "Bash", "SDL2", "PlatformIO", "Maven", "Golang")
+#let skills_ko = ("C/C++17", "Java", "Python", "Bash", "Elxir", "PlatformIO", "Maven", "Golang")
 
 #grid(
   columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),

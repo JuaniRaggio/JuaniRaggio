@@ -4,192 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Juan Ignacio Raggio - CV</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/nickvdyck/d2codingfont@master/D2Coding.css" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Inter', Arial, sans-serif;
-            background: #f7f9fc;
-            padding: 2rem;
+        * {
             margin: 0;
-            color: #222;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .card {
+        body {
+            font-family: 'D2Coding', monospace;
             background: #fff;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 2rem 3rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
         }
 
         h1 {
-            font-size: 2rem;
-            margin: 0;
+            font-size: 1.8rem;
+            font-weight: 600;
             color: #111;
+            margin-bottom: 2.5rem;
+            letter-spacing: -0.02em;
         }
 
-        .header {
-            text-align: center;
-            margin-bottom: 1rem;
+        .lang-options {
+            display: flex;
+            gap: 3rem;
+            justify-content: center;
         }
 
-        .header p {
-            margin: 0.3rem 0;
-            color: #555;
-        }
-
-        .header a {
-            color: #0366d6;
+        .lang-btn {
             text-decoration: none;
-            margin: 0 0.5rem;
-            font-weight: 500;
-        }
-
-        .header a:hover {
-            text-decoration: underline;
-        }
-
-        h2 {
-            font-size: 1.3rem;
-            color: #1a1a1a;
-            margin-top: 2rem;
-            margin-bottom: 0.5rem;
-            border-bottom: 1px solid #000; /* línea negra */
-            display: block; /* ahora ocupa todo el ancho */
-            padding-bottom: 0.2rem;
-        }
-
-        p, ul {
-            line-height: 1.5;
             color: #333;
+            font-size: 1rem;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
         }
 
-        ul {
-            padding-left: 1.2rem;
+        .lang-btn:hover {
+            border-bottom-color: #111;
         }
 
-        ul li {
-            margin-bottom: 0.5rem;
-        }
-
-        .skills {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: grid;
-            grid-template-columns: repeat(3, minmax(100px, 1fr));
-            gap: 0.4rem 0.8rem;
-        }
-
-        .skills li {
-            background: #eef2f6;
-            padding: 0.4rem 0.6rem;
-            border-radius: 8px;
-            text-align: center;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-
-        @media (max-width: 600px) {
-            .skills {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media print {
-            body {
-                background: #fff;
-                padding: 0;
-            }
-            .card {
-                box-shadow: none;
-                border-radius: 0;
-                padding: 1rem;
+        @media (max-width: 400px) {
+            .lang-options {
+                flex-direction: column;
+                gap: 1.5rem;
             }
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <div class="header">
-            <h1>Juan Ignacio Raggio</h1>
-            <p>Buenos Aires, Argentina</p>
-                <a href="https://github.com/JuaniRaggio" target="_blank"><i class="fab fa-github"></i> GitHub</a> · 
-                <a href="https://www.linkedin.com/in/juan-ignacio-raggio-1a331b2b3/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            </p>
+    <div class="container">
+        <h1>Juan Ignacio Raggio</h1>
+        <div class="lang-options">
+            <a href="en.html" class="lang-btn">English</a>
+            <a href="ko.html" class="lang-btn">한국어</a>
         </div>
-
-        <h2>Profile</h2>
-        <p>
-            Back-end developer, computer simulations, quantitative finance and optimizations. Strong background in Java and C/C++, with experience in mathematical modeling, statistical analysis, and development of visual and algorithmic tools. Computer Engineering student at Instituto Tecnológico de Buenos Aires.
-        </p>
-
-        <h2>Projects</h2>
-        <ul>
-            <li><strong><a href="https://github.com/JuaniRaggio/Ares">Ares OS</a>:</strong> Educational Operating System built from x86BareBones without Standard Libraries. Computer Architecture class @ITBA. <em>Grade: 10</em></li>
-            <li><strong><a href="https://github.com/JuaniRaggio/Robrain">Robrain</a>:</strong> Brain Computer Interface system for robot control using EMG/EEG. Workflow: Electrodes, Arduino, Host, ESP32, engine.</li>
-            <li><strong><a href="https://www.spacehub.studio">SpaceHub</a>:</strong> Work in progress! Fullstack web proyect for reservation of free spaces, integrated AI chatbot, geolocation-based recomendations, dinamic prizing and more.</li>
-            <li><strong><a href="https://github.com/JuaniRaggio/QuantumJam">QuantumJam</a>:</strong> Production-grade BB84 quantum key distribution protocol with security analysis, error correction, and privacy amplification.</li>
-            <li><strong><a href="https://github.com/JuaniRaggio/SignalForge">SignalForge</a>:</strong> Market forecasting tool.</li>
-            <li><strong><a href="https://github.com/JuaniRaggio/SecurityNexus">SecurityNexus</a>:</strong> Security platform for Polkadot ecosystem. Built in 2 days for WebZero's Hackathon.</li>
-            <li><strong><a href="https://github.com/JuaniRaggio/finalpoo">Geometric Paint (JavaFX)</a>:</strong> OOP-based Java app to draw and customize figures, with clean logic/UI separation. <em>Grade: 10</em></li>
-            <li><strong><a href="https://github.com/JuaniRaggio/finalpi">Querying 100M Tickets</a>:</strong> Single-threaded CSV data parser using AVL trees in C. <em>Grade: 10</em></li>
-            <li><strong><a href="https://github.com/JuaniRaggio/MicroPythonMS">MicroPython Math + Statistic programs</a>:</strong> Programs to embed on low-resource environments.</li>
-            <li><strong><a href="https://github.com/JuaniRaggio/XML_TP">API Data Processing</a>:</strong> Integrated REST APIs with XML/XQuery/XSLT transformations and PDF reporting.</li>
-            <li><strong><a href="https://github.com/JuaniRaggio/fluid-simulation">Fluid Simulation</a>:</strong> Interactive 2D fluid simulation using C and SDL2.</li>
-            <li><strong><a href="https://github.com/JuaniRaggio/CGOLife-Simulation">Conway's Game of Life</a>:</strong> C++ mathematical simulation with SDL2.</li>
-        </ul>
-
-        <h2>Experience</h2>
-        <ul>
-            <li><strong>Object-Oriented Programming – Teaching Assistant @ITBA:</strong> Supporting students in advanced OOP (Smalltalk, Java, ADTs, UML, inheritance, polymorphism, exception handling). <br>01/08/2025 – Present</li>
-            <li><strong>General Informatics (Python) – Teaching Assistant @ITBA:</strong> Assisting in fundamentals of programming and computing (Python, control structures, file management, arrays/lists). <br>01/08/2025 – Present</li>
-        </ul>
-
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Computer Engineering</strong> – Instituto Tecnológico de Buenos Aires</li>
-            <li><strong>Natural Sciences</strong> – Balmoral College</li>
-        </ul>
-
-        <h2>Certificates</h2>
-        <ul>
-            <li>First Certificate in English – Cambridge</li>
-            <li>ICE – Cambridge (Physics, Mathematics, Biology, Environmental Management, Language, Literature)</li>
-            <li>DELF A2 - French</li>
-            <li>Fat Chance: Probability from the Ground Up – Harvard University</li>
-        </ul>
-
-        <h2>Languages</h2>
-        <ul>
-            <li>Spanish – Native</li>
-            <li>English – Advanced</li>
-            <li>French – Basic</li>
-            <li>Korean – Basic</li>
-        </ul>
-
-        <h2>Technical Skills</h2>
-        <ul class="skills">
-            <li>C/C++</li>
-            <li>Qt</li>
-            <li>Java</li>
-            <li>JavaFX</li>
-            <li>JUnit5</li>
-            <li>Maven</li>
-            <li>Bash</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>SDL2</li>
-            <li>XML</li>
-            <li>XQuery</li>
-            <li>XSLT</li>
-            <li>Lua</li>
-            <li>Elisp</li>
-            <li>Typst</li>
-            <li>LaTeX</li>
-        </ul>
     </div>
 </body>
 </html>

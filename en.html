@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Juan Ignacio Raggio - CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/nickvdyck/d2codingfont@master/D2Coding.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'D2Coding', monospace;
+            background: #f7f9fc;
+            padding: 2rem;
+            margin: 0;
+            color: #222;
+        }
+
+        .card {
+            background: #fff;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+            color: #111;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            margin: 0.3rem 0;
+            color: #555;
+        }
+
+        .header a {
+            color: #0366d6;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            font-weight: 500;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        .lang-switch {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .lang-switch a {
+            color: #0366d6;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #1a1a1a;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid #000;
+            display: block;
+            padding-bottom: 0.2rem;
+        }
+
+        p, ul {
+            line-height: 1.5;
+            color: #333;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-date {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .languages-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            text-align: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 0.4rem 0.8rem;
+        }
+
+        .skills li {
+            background: #eef2f6;
+            padding: 0.4rem 0.6rem;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            .languages-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .skills {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+            .card {
+                box-shadow: none;
+                border-radius: 0;
+                padding: 1rem;
+            }
+            .lang-switch {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="lang-switch">
+            <a href="ko.html">한국어로 보기</a>
+        </div>
+        <div class="header">
+            <h1>Juan Ignacio Raggio</h1>
+            <p>Buenos Aires, Argentina |
+                <a href="https://github.com/JuaniRaggio" target="_blank"><i class="fab fa-github"></i> GitHub</a> |
+                <a href="https://www.linkedin.com/in/juan-ignacio-raggio-1a331b2b3/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </p>
+        </div>
+
+        <h2>Profile</h2>
+        <p>
+            Computer Engineering student at ITBA with strong background in low-level systems, embedded programming, and mathematical modeling. Passionate about embedded systems, computer simulations, and quantitative analysis.
+        </p>
+
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Computer Engineering</strong> - Instituto Tecnologico de Buenos Aires (ITBA)</li>
+            <li><strong>Natural Sciences</strong> - Balmoral College (ICE Cambridge)</li>
+        </ul>
+
+        <h2>Academic Experience</h2>
+        <ul>
+            <li>
+                <strong>IEEE Robotics Research Team @ITBA</strong><br>
+                Developing rover for European Rover Challenge (ERC), a Mars simulation competition in Poland.
+                <span class="experience-date">Aug 2025 - Present</span>
+            </li>
+            <li>
+                <strong>Computer Architecture - Teaching Assistant @ITBA</strong><br>
+                Supporting students in low-level systems and assembly.
+                <span class="experience-date">Mar 2026 - Present</span>
+            </li>
+            <li>
+                <strong>Object-Oriented Programming (Java 25) - Teaching Assistant @ITBA</strong><br>
+                Supporting students in advanced OOP concepts.
+                <span class="experience-date">Aug 2025 - Present</span>
+            </li>
+            <li>
+                <strong>General Informatics (Python) - Teaching Assistant @ITBA</strong><br>
+                Assisting in programming fundamentals.
+                <span class="experience-date">Aug 2025 - Feb 2026</span>
+            </li>
+        </ul>
+
+        <h2>Academic Projects</h2>
+        <ul>
+            <li><strong><a href="https://github.com/JuaniRaggio/Ares">Ares OS</a>:</strong> Educational OS built from x86 BareBones without standard libraries. Computer Architecture @ITBA. <em>Grade: 10</em></li>
+            <li><strong><a href="https://github.com/JuaniRaggio/Robrain">Robrain</a>:</strong> Brain-Computer Interface for robot control using EMG/EEG signals. Full pipeline: electrode acquisition, Arduino signal processing, host analysis, ESP32 wireless control. Built with C++17, PlatformIO, and Boost.</li>
+            <li><strong><a href="https://www.spacehub.studio">SpaceHub</a>:</strong> Fullstack platform for space reservation with AI chatbot, geolocation recommendations, and dynamic pricing. Pre-startup in development with planned commercial launch.</li>
+            <li><strong><a href="https://github.com/JuaniRaggio/finalpoo">Geometric Paint</a>:</strong> OOP-based drawing application with clean MVC separation. Object-Oriented Programming @ITBA. <em>Grade: 10</em></li>
+            <li><strong><a href="https://github.com/JuaniRaggio/finalpi">Querying 100M Tickets</a>:</strong> High-performance CSV parser using AVL trees in C. Imperative Programming @ITBA. <em>Grade: 10</em></li>
+            <li><strong><a href="https://github.com/JuaniRaggio/SignalForge">SignalForge</a>:</strong> Market forecasting tool with statistical modeling and signal analysis for quantitative finance applications.</li>
+            <li><strong><a href="https://github.com/JuaniRaggio/QuantumJam">QuantumJam</a>:</strong> BB84 quantum key distribution protocol with error correction and privacy amplification.</li>
+        </ul>
+
+        <h2>Languages</h2>
+        <ul class="languages-grid">
+            <li>Spanish - Native</li>
+            <li>Korean - Level 1</li>
+            <li>English - Advanced</li>
+            <li>French - Basic</li>
+        </ul>
+
+        <h2>Certificates</h2>
+        <ul>
+            <li>Fat Chance: Probability from the Ground Up - Harvard University</li>
+            <li>First Certificate in English (FCE) - Cambridge</li>
+            <li>DELF A2 - Alliance Francaise</li>
+        </ul>
+
+        <h2>Technical Skills</h2>
+        <ul class="skills">
+            <li>C/C++17</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Bash</li>
+            <li>Elixir</li>
+            <li>PlatformIO</li>
+            <li>Maven</li>
+            <li>Golang</li>
+        </ul>
+    </div>
+</body>
+</html>
