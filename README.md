@@ -9,7 +9,7 @@ Teaching Assistant for Object-Oriented Programming (Java), and General Informati
 - 한국어 (매일 공부해요) 
 - Français (A1)
 
-## Links
-
-- [LinkedIn](https://www.linkedin.com/in/juan-ignacio-raggio-1a331b2b3/)
-- [CV](https://juaniraggio.github.io/JuaniRaggio/)
+<!-- ## Links -->
+<!--  -->
+<!-- - [LinkedIn](https://www.linkedin.com/in/juan-ignacio-raggio-1a331b2b3/) -->
+<!-- - [CV](https://juaniraggio.github.io/JuaniRaggio/) -->
