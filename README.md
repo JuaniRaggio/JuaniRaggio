@@ -4,7 +4,10 @@ Teaching Assistant for Object-Oriented Programming (Java), and General Informati
 
 ## Languages
 
-Spanish -- English -- Korean (매일 공부해요) -- French (A1)
+- Español 
+- English 
+- 한국어 (매일 공부해요) 
+- Français (A1)
 
 ## Links
 
