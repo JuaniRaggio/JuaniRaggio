@@ -4,7 +4,7 @@ Member of the IEEE Robotics Research Team, building a rover for the [European Ro
 
 ## Tech
 
-[![My Skills](https://skillicons.dev/icons?i=c,cpp,arduino,docker,java,maven,bash,python,elixir,golang,tensorflow,latex)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,arduino,docker,java,maven,python,tensorflow,elixir,golang,bash,latex)](https://skillicons.dev)
 
 ## Languages
 
