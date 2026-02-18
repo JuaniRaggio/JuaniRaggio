@@ -1,6 +1,10 @@
-Computer Engineering student at [ITBA](https://www.itba.edu.ar/) (Buenos Aires, Argentina). Focused on low-level systems, embedded programming, and mathematical modeling.
+Computer Engineering student at [ITBA](https://www.itba.edu.ar/) (Buenos Aires, Argentina). Focused on low-level systems, embedded programming, mathematical modeling, and Machine Learning.
 
-Teaching Assistant for Object-Oriented Programming (Java), and General Informatics (Python) at ITBA. Member of the IEEE Robotics Research Team, building a rover for the [European Rover Challenge](https://roverchallenge.eu/) (ERC).
+Member of the IEEE Robotics Research Team, building a rover for the [European Rover Challenge](https://roverchallenge.eu/) (ERC). Teaching Assistant for Object-Oriented Programming (Java), and General Informatics (Python) at ITBA.
+
+## Tech
+
+[![My Skills](https://skillicons.dev/icons?i=cpp,java,python,elixir,maven,latex,arduino)](https://skillicons.dev)
 
 ## Languages
 
@@ -8,8 +12,3 @@ Teaching Assistant for Object-Oriented Programming (Java), and General Informati
 - English 
 - 한국어 (매일 공부해요) 
 - Français (A1)
-
-<!-- ## Links -->
-<!--  -->
-<!-- - [LinkedIn](https://www.linkedin.com/in/juan-ignacio-raggio-1a331b2b3/) -->
-<!-- - [CV](https://juaniraggio.github.io/JuaniRaggio/) -->
