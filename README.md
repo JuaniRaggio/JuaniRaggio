@@ -11,5 +11,5 @@ Member of the IEEE Robotics Research Team, building a rover for the [European Ro
 
 ## Tech
 
-[![My Skills](https://skillicons.dev/icons?i=c,cpp,arduino,docker,java,maven,python,pytorch,tensorflow,elixir,golang,bash,postgresql,latex)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,arduino,docker,java,maven,python,pytorch,tensorflow,elixir,golang,bash,postgresql,figma,latex)](https://skillicons.dev)
 
