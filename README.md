@@ -4,6 +4,7 @@ Member of the IEEE Robotics Research Team, building a rover for the [European Ro
 
 
 **Working projects**:
+---
 
 - [Robrain](https://github.com/JuaniRaggio/Robrain.git): BCI Robot real-time control system, analysing EMG signals for motor control. Using C++17 with PlatformIO
 - [CCOS](https://github.com/JuaniRaggio/CCOS.git): Building an OS in C++17 Bare Metal, implementing some STL functionalities
@@ -11,6 +12,7 @@ Member of the IEEE Robotics Research Team, building a rover for the [European Ro
 
 
 **Languages**:
+---
 
 - Español 
 - English 
