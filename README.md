@@ -4,7 +4,7 @@ Computer Engineering student at [ITBA](https://www.itba.edu.ar/) (Buenos Aires, 
 
 Member of the IEEE Robotics Research Team, building a rover for the [European Rover Challenge](https://roverchallenge.eu/) (ERC).
 
-Software Team Lead at [Drillbotics](https://drillbotics.com/) ITBA -- Architecture, embedded control system design, cross-team integration, and development coordination. (C++17)
+Software Team Lead at [Drillbotics](https://drillbotics.com/) ITBA -- Leading the embedded control software for a real-time autonomous drilling system on Raspberry Pi 4. Architecture design, real-time CAN communication, autonomous navigation, closed-loop directional control, and safety supervision. Cross-team coordination with Electronics and Mechanical Engineering. (C++17)
 
 
 #### Working projects
