@@ -4,6 +4,8 @@ Computer Engineering student at [ITBA](https://www.itba.edu.ar/) (Buenos Aires, 
 
 Member of the IEEE Robotics Research Team, building a rover for the [European Rover Challenge](https://roverchallenge.eu/) (ERC).
 
+Software Team Lead at [Drillbotics](https://drillbotics.com/) ITBA -- Architecture, embedded control system design, cross-team integration, and development coordination. (C++17)
+
 
 #### Working projects
 
