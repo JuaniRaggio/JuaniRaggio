@@ -1,6 +1,6 @@
 Real-time embedded architectures for autonomous rigs, planetary rovers, and EEG/EMG-driven robotics.
 
-**[Drillbotics ITBA](https://drillbotics.com/)** | *Software Control Team Lead*
+**[Drillbotics ITBA](https://drillbotics.com/) World Champions** | *Software Control Team Lead*
 - Leading embedded control software for a real-time autonomous drilling system.
 - Cross-team coordination (Electronics/Mechanical) and industry collaboration with YPF/Corva. (C++17)
 
