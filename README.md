@@ -1,6 +1,6 @@
 Real-time embedded architectures for autonomous rigs, planetary rovers, and EEG/EMG-driven robotics.
 
-**[Drillbotics](https://drillbotics.com/) World Champion** | *Software Control Team Lead*
+**[Drillbotics](https://drillbotics.com/) World Champion 2025/2026** | *Software Control Team Lead*
 - Leading embedded control software for a real-time autonomous drilling system.
 - Cross-team coordination (Electronics/Mechanical) and industry collaboration with YPF/Corva. (C++17)
 
