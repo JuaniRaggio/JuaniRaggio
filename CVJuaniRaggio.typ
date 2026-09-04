@@ -35,8 +35,12 @@ Computer Engineering student at ITBA with strong background in low-level systems
 
 - *Computer Engineering* - Instituto Tecnologico de Buenos Aires (ITBA)
 - *Natural Sciences* - Balmoral College (ICE Cambridge)
+- *Academic Exchange* - Beijing Institute of Technology (BIT) — Emerging Technologies in Electronics, Chinese Language Course, Chinese Culture Practice #text(size: 8pt, fill: gray)[Jul 2026]
 
 #section("Academic Experience")
+
+- *Drillbotics ITBA - Software Control Team Lead | World Champions* \
+  Led the embedded control software for a real-time autonomous drilling system on Raspberry Pi 4, winning the Drillbotics World Championship. Architecture design, real-time CAN communication, autonomous navigation, closed-loop directional control, and safety supervision. Cross-team coordination with Electronics and Mechanical Engineering. Industry collaboration with YPF and Corva. C++17. #text(size: 8pt, fill: gray)[Mar 2026 - 2026]
 
 - *IEEE Robotics Research Team \@ITBA* \
   Developing rover for European Rover Challenge (ERC), a Mars simulation competition in Poland. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
@@ -102,8 +106,12 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
 
 - *컴퓨터공학* - Instituto Tecnologico de Buenos Aires (ITBA)
 - *자연과학* - Balmoral College (ICE Cambridge)
+- *학술 교환 프로그램* - 북경이공대학교 (BIT) — 전자정보공학 첨단기술, 교제한어, 중국문화실천 #text(size: 8pt, fill: gray)[2026년 7월]
 
 #section("학술 경험")
+
+- *Drillbotics ITBA - 소프트웨어 제어 팀 리드 | 세계 챔피언* \
+  Raspberry Pi 4 기반 실시간 자율 드릴링 시스템의 임베디드 제어 소프트웨어 개발 총괄, Drillbotics 세계 챔피언십 우승. 아키텍처 설계, 실시간 CAN 통신, 자율 항법, 폐루프 방향 제어 및 안전 감시. YPF 및 Corva와의 산업 협력. C++17. #text(size: 8pt, fill: gray)[2026년 3월 - 2026년]
 
 - *IEEE 로봇 연구팀 \@ITBA* \
   폴란드에서 열리는 화성 시뮬레이션 대회 European Rover Challenge(ERC)용 로버 개발. #text(size: 8pt, fill: gray)[2025년 8월 - 현재]
