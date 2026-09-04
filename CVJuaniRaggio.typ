@@ -35,7 +35,7 @@ Computer Engineering student at ITBA with strong background in low-level systems
 
 - *Computer Engineering* - Instituto Tecnologico de Buenos Aires (ITBA)
 - *Natural Sciences* - Balmoral College (ICE Cambridge)
-- *Academic Exchange* - Beijing Institute of Technology (BIT) — Emerging Technologies in Electronics, Chinese Language Course, Chinese Culture Practice #text(size: 8pt, fill: gray)[Jul 2026]
+- *Academic Exchange* - Beijing Institute of Technology (BIT) — Emerging Technologies in Electronics, Chinese Language Course, Chinese Culture Practice #text(size: 8pt, fill: gray)[2026]
 
 #section("Academic Experience")
 
@@ -106,7 +106,7 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
 
 - *컴퓨터공학* - Instituto Tecnologico de Buenos Aires (ITBA)
 - *자연과학* - Balmoral College (ICE Cambridge)
-- *학술 교환 프로그램* - 북경이공대학교 (BIT) — 전자정보공학 첨단기술, 교제한어, 중국문화실천 #text(size: 8pt, fill: gray)[2026년 7월]
+- *학술 교환 프로그램* - 북경이공대학교 (BIT) — 전자정보공학 첨단기술, 교제한어, 중국문화실천 #text(size: 8pt, fill: gray)[2026년]
 
 #section("학술 경험")
 
