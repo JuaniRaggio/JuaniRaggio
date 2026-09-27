@@ -1,3 +1,4 @@
+#let lang = sys.inputs.at("lang", default: "both")
 #set document(title: "Juan Ignacio Raggio - CV", author: "Juan Ignacio Raggio")
 #set page(margin: (x: 1.5cm, y: 1cm))
 #set text(font: "D2Coding", size: 9.5pt)
@@ -37,16 +38,13 @@ Computer Engineering student at ITBA with strong background in low-level systems
 - *Natural Sciences* - Balmoral College (ICE Cambridge)
 - *Academic Exchange* - Beijing Institute of Technology (BIT) — Emerging Technologies in Electronics, Chinese Language Course, Chinese Culture Practice #text(size: 8pt, fill: gray)[2026]
 
-#section("Academic Experience")
+#section("Experience")
 
-- *Drillbotics ITBA - Software Control Team Lead | World Champions* \
-  Led the embedded control software for a real-time autonomous drilling system on Raspberry Pi 4, winning the Drillbotics World Championship. Architecture design, real-time CAN communication, autonomous navigation, closed-loop directional control, and safety supervision. Cross-team coordination with Electronics and Mechanical Engineering. Industry collaboration with YPF and Corva. C++17. #text(size: 8pt, fill: gray)[Mar 2026 - 2026]
+- *Drillbotics ITBA - Software Control Team Lead |* #link("https://drillbotics.com/drillbotics-2026-competition-results/")[*World Champions*] \
+  Led the embedded control software for a real-time autonomous drilling system on Raspberry Pi, winning the Drillbotics World Championship. Architecture design, real-time CAN communication, autonomous navigation, closed-loop directional control, and safety supervision. Cross-team coordination with Electronics and Mechanical Engineering. Industry collaboration with YPF and Corva. C++17. #text(size: 8pt, fill: gray)[Mar 2026 - 2026]
 
-- *IEEE Robotics Research Team \@ITBA* \
+- *European Rover Challenge Robotics Team \@ITBA* \
   Developing rover for European Rover Challenge (ERC), a Mars simulation competition in Poland. C++17. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
-
-- *Computer Architecture - Teaching Assistant \@ITBA* \
-  Supporting students in low-level systems and assembly. #text(size: 8pt, fill: gray)[Mar 2026 - Present]
 
 - *Object-Oriented Programming (Java 25) - Teaching Assistant \@ITBA* \
   Supporting students in advanced OOP concepts. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
@@ -54,7 +52,7 @@ Computer Engineering student at ITBA with strong background in low-level systems
 - *General Informatics (Python) - Teaching Assistant \@ITBA* \
   Assisting in programming fundamentals. #text(size: 8pt, fill: gray)[Aug 2025 - Feb 2026]
 
-#section("Academic Projects")
+#section("Projects")
 
 #project("Ares OS", "https://github.com/JuaniRaggio/Ares", "Educational OS built from x86 BareBones without standard libraries. Computer Architecture @ITBA.", grade: "10")
 
@@ -80,11 +78,7 @@ Computer Engineering student at ITBA with strong background in low-level systems
   [French - Basic],
 )]
 
-#section("Certificates")
-
-- Fat Chance: Probability from the Ground Up - Harvard University
-- First Certificate in English (FCE) - Cambridge
-- DELF A2 - Alliance Francaise
+#if lang == "kr" or lang == "both" [
 
 #pagebreak()
 
@@ -108,9 +102,9 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
 - *자연과학* - Balmoral College (ICE Cambridge)
 - *학술 교환 프로그램* - 북경이공대학교 (BIT) — 전자정보공학 첨단기술, 교제한어, 중국문화실천 #text(size: 8pt, fill: gray)[2026년]
 
-#section("학술 경험")
+#section("경험")
 
-- *Drillbotics ITBA - 소프트웨어 제어 팀 리드 | 세계 챔피언* \
+- *Drillbotics ITBA - 소프트웨어 제어 팀 리드 |* #link("https://drillbotics.com/drillbotics-2026-competition-results/")[*세계 챔피언*] \
   Raspberry Pi 4 기반 실시간 자율 드릴링 시스템의 임베디드 제어 소프트웨어 개발 총괄, Drillbotics 세계 챔피언십 우승. 아키텍처 설계, 실시간 CAN 통신, 자율 항법, 폐루프 방향 제어 및 안전 감시. YPF 및 Corva와의 산업 협력. C++17. #text(size: 8pt, fill: gray)[2026년 3월 - 2026년]
 
 - *IEEE 로봇 연구팀 \@ITBA* \
@@ -125,7 +119,7 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
 - *일반 정보학 (Python) - 조교 \@ITBA* \
   프로그래밍 기초 학습 지원. #text(size: 8pt, fill: gray)[2025년 8월 - 2026년 2월]
 
-#section("학술 프로젝트")
+#section("프로젝트")
 
 #project("Ares OS", "https://github.com/JuaniRaggio/Ares", "표준 라이브러리 없이 x86 BareBones로 구축한 교육용 운영체제. 컴퓨터 구조 @ITBA.", grade: "10")
 
@@ -151,12 +145,6 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
   [프랑스어 - 초급 (DELF A2)],
 )]
 
-#section("자격증")
-
-- Fat Chance: Probability from the Ground Up - Harvard University
-- First Certificate in English (FCE) - Cambridge
-- DELF A2 - Alliance Francaise
-
 #section("기술 스택")
 
 #let skills_ko = ("C/C++17", "Java", "Python", "Bash", "Elxir", "PlatformIO", "Maven", "Golang")
@@ -172,3 +160,5 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
     align(center)[#text(size: 8pt, weight: "medium")[#skill]]
   ))
 )
+
+]
