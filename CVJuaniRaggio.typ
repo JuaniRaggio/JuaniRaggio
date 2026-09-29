@@ -1,5 +1,4 @@
 #let lang = sys.inputs.at("lang", default: "both")
-
 #set document(title: "Juan Ignacio Raggio - CV", author: "Juan Ignacio Raggio")
 #set page(margin: (x: 1.5cm, y: 1cm))
 #set text(font: "D2Coding", size: 9.5pt)
