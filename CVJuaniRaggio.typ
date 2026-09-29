@@ -12,8 +12,8 @@
   v(0.2em)
 }
 
-#let project(name, url, description, grade: none) = {
-  [- #link(url)[*#name*]: #description #if grade != none [_Grade: #grade _]]
+#let project(name, url, description) = {
+  [- #link(url)[*#name*]: #description]
 }
 
 #let experience(title, period, description) = {
@@ -41,7 +41,7 @@ Computer Engineering student at ITBA with strong background in low-level systems
 #section("Experience")
 
 - *Drillbotics ITBA - Software Control Team Lead |* #link("https://drillbotics.com/drillbotics-2026-competition-results/")[*World Champions*] \
-  Led the embedded control software for a real-time autonomous drilling system on Raspberry Pi, winning the Drillbotics World Championship. Architecture design, real-time CAN communication, autonomous navigation, closed-loop directional control, and safety supervision. Cross-team coordination with Electronics and Mechanical Engineering. Industry collaboration with YPF and Corva. C++17. #text(size: 8pt, fill: gray)[Mar 2026 - 2026]
+  Led the embedded control software for a real-time autonomous drilling system on Raspberry Pi, winning the Drillbotics World Championship. Architecture design, real-time CAN communication, autonomous navigation, closed-loop directional control, and safety supervision. Cross-team coordination with Electronics and Mechanical Engineering. Industry collaboration with YPF and Corva. C++17. #text(size: 8pt, fill: gray)[Mar 2026 - Present]
 
 - *European Rover Challenge Robotics Team \@ITBA* \
   Developing rover for European Rover Challenge (ERC), a Mars simulation competition in Poland. C++17. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
@@ -52,17 +52,17 @@ Computer Engineering student at ITBA with strong background in low-level systems
 - *General Informatics (Python) - Teaching Assistant \@ITBA* \
   Assisting in programming fundamentals. #text(size: 8pt, fill: gray)[Aug 2025 - Feb 2026]
 
-#section("Projects")
+#section("Open Source Projects")
 
-#project("Ares OS", "https://github.com/JuaniRaggio/Ares", "Educational OS built from x86 BareBones without standard libraries. Computer Architecture @ITBA.", grade: "10")
+#project("Ares OS", "https://github.com/JuaniRaggio/Ares", "Educational OS built from x86 BareBones without standard libraries. Computer Architecture @ITBA.")
 
 #project("Robrain", "https://github.com/JuaniRaggio/Robrain", "Brain-Computer Interface for robot control using EMG/EEG signals. Full pipeline: electrode acquisition, Arduino signal processing, host analysis, ESP32 wireless control. Built with C++17, PlatformIO, and Boost.")
 
 #project("SpaceHub", "https://www.spacehub.studio", "Fullstack platform for space reservation with AI chatbot, geolocation recommendations, and dynamic pricing. Pre-startup in development with planned commercial launch.")
 
-#project("Geometric Paint", "https://github.com/JuaniRaggio/finalpoo", "OOP-based drawing application with clean MVC separation. Object-Oriented Programming @ITBA.", grade: "10")
+#project("Geometric Paint", "https://github.com/JuaniRaggio/finalpoo", "OOP-based drawing application with clean MVC separation. Object-Oriented Programming @ITBA.")
 
-#project("Querying 100M Tickets", "https://github.com/JuaniRaggio/finalpi", "High-performance CSV parser using AVL trees in C. Imperative Programming @ITBA.", grade: "10")
+#project("Querying 100M Tickets", "https://github.com/JuaniRaggio/finalpi", "High-performance CSV parser using AVL trees in C. Imperative Programming @ITBA.")
 
 #project("SignalForge", "https://github.com/JuaniRaggio/SignalForge", "Market forecasting tool with statistical modeling and signal analysis for quantitative finance applications.")
 
@@ -110,26 +110,23 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
 - *IEEE 로봇 연구팀 \@ITBA* \
   폴란드에서 열리는 화성 시뮬레이션 대회 European Rover Challenge(ERC)용 로버 개발. C++17. #text(size: 8pt, fill: gray)[2025년 8월 - 현재]
 
-- *컴퓨터 구조 - 조교 \@ITBA* \
-  저수준 시스템 및 어셈블리 학습 지원. #text(size: 8pt, fill: gray)[2026년 3월 - 현재]
-
 - *객체지향 프로그래밍 (Java 25) - 조교 \@ITBA* \
   고급 OOP 개념 학습 지원. #text(size: 8pt, fill: gray)[2025년 8월 - 현재]
 
 - *일반 정보학 (Python) - 조교 \@ITBA* \
   프로그래밍 기초 학습 지원. #text(size: 8pt, fill: gray)[2025년 8월 - 2026년 2월]
 
-#section("프로젝트")
+#section("오픈소스 프로젝트")
 
-#project("Ares OS", "https://github.com/JuaniRaggio/Ares", "표준 라이브러리 없이 x86 BareBones로 구축한 교육용 운영체제. 컴퓨터 구조 @ITBA.", grade: "10")
+#project("Ares OS", "https://github.com/JuaniRaggio/Ares", "표준 라이브러리 없이 x86 BareBones로 구축한 교육용 운영체제. 컴퓨터 구조 @ITBA.")
 
 #project("Robrain", "https://github.com/JuaniRaggio/Robrain", "EMG/EEG 신호를 이용한 로봇 제어 뇌-컴퓨터 인터페이스. 전극 수집, Arduino 신호 처리, 호스트 분석, ESP32 무선 제어 파이프라인. C++17, PlatformIO, Boost 사용.")
 
 #project("SpaceHub", "https://www.spacehub.studio", "AI 챗봇, 위치 기반 추천, 동적 가격 책정을 갖춘 공간 예약 풀스택 플랫폼. 상업적 출시를 앞둔 예비 스타트업.")
 
-#project("Geometric Paint", "https://github.com/JuaniRaggio/finalpoo", "MVC 패턴을 적용한 OOP 기반 그리기 애플리케이션. 객체지향 프로그래밍 @ITBA.", grade: "10")
+#project("Geometric Paint", "https://github.com/JuaniRaggio/finalpoo", "MVC 패턴을 적용한 OOP 기반 그리기 애플리케이션. 객체지향 프로그래밍 @ITBA.")
 
-#project("Querying 100M Tickets", "https://github.com/JuaniRaggio/finalpi", "C언어로 AVL 트리를 사용한 고성능 CSV 파서. 명령형 프로그래밍 @ITBA.", grade: "10")
+#project("Querying 100M Tickets", "https://github.com/JuaniRaggio/finalpi", "C언어로 AVL 트리를 사용한 고성능 CSV 파서. 명령형 프로그래밍 @ITBA.")
 
 #project("SignalForge", "https://github.com/JuaniRaggio/SignalForge", "정량 금융 응용을 위한 통계 모델링 및 신호 분석 기반 시장 예측 도구.")
 
@@ -144,21 +141,5 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
   [영어 - 고급 (FCE)],
   [프랑스어 - 초급 (DELF A2)],
 )]
-
-#section("기술 스택")
-
-#let skills_ko = ("C/C++17", "Java", "Python", "Bash", "Elxir", "PlatformIO", "Maven", "Golang")
-
-#grid(
-  columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
-  gutter: 6pt,
-  ..skills_ko.map(skill => box(
-    fill: rgb("#eef2f6"),
-    radius: 4pt,
-    inset: 5pt,
-    width: 100%,
-    align(center)[#text(size: 8pt, weight: "medium")[#skill]]
-  ))
-)
 
 ]
