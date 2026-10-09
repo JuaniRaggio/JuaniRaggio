@@ -43,8 +43,8 @@ Computer Engineering student at ITBA with strong background in low-level systems
 - *Drillbotics ITBA - Software Control Team Lead |* #link("https://drillbotics.com/drillbotics-2026-competition-results/")[*World Champions*] \
   Led the embedded control software for a real-time autonomous drilling system on Raspberry Pi, winning the Drillbotics World Championship. Architecture design, real-time CAN communication, autonomous navigation, closed-loop directional control, and safety supervision. Cross-team coordination with Electronics and Mechanical Engineering. Industry collaboration with YPF and Corva. C++17. #text(size: 8pt, fill: gray)[Mar 2026 - Present]
 
-- *European Rover Challenge Robotics Team \@ITBA* \
-  Developing rover for European Rover Challenge (ERC), a Mars simulation competition in Poland. C++17, ROS2 Humble on Ubuntu 22.04. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
+- *European Rover Challenge Robotics Team \@ITBA - Software \& Automation Team Lead* \
+  Developing an autonomous rover for the European Rover Challenge (ERC), a Mars simulation competition in Poland. Centralized ROS2 architecture on an NVIDIA Jetson commanding microcontroller slaves over a CAN 2.0 bus; GPS-denied navigation with RTAB-Map stereo SLAM, EKF sensor fusion, ArUco fiducial localization, Nav2, and Reinforcement Learning (SAC/PPO). C++17, ROS2 Humble on Ubuntu 22.04. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
 
 - *Object-Oriented Programming (Java 25) - Teaching Assistant \@ITBA* \
   Supporting students in advanced OOP concepts. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
@@ -107,8 +107,8 @@ ITBA 컴퓨터공학과 학생으로, 저수준 시스템, 임베디드 프로�
 - *Drillbotics ITBA - 소프트웨어 제어 팀 리드 |* #link("https://drillbotics.com/drillbotics-2026-competition-results/")[*세계 챔피언*] \
   Raspberry Pi 4 기반 실시간 자율 드릴링 시스템의 임베디드 제어 소프트웨어 개발 총괄, Drillbotics 세계 챔피언십 우승. 아키텍처 설계, 실시간 CAN 통신, 자율 항법, 폐루프 방향 제어 및 안전 감시. YPF 및 Corva와의 산업 협력. C++17. #text(size: 8pt, fill: gray)[2026년 3월 - 2026년]
 
-- *IEEE 로봇 연구팀 \@ITBA* \
-  폴란드에서 열리는 화성 시뮬레이션 대회 European Rover Challenge(ERC)용 로버 개발. C++17, Ubuntu 22.04 기반 ROS2 Humble. #text(size: 8pt, fill: gray)[2025년 8월 - 현재]
+- *IEEE 로봇 연구팀 \@ITBA - 소프트웨어 및 자동화 팀 리드* \
+  폴란드에서 열리는 화성 시뮬레이션 대회 European Rover Challenge(ERC)용 자율주행 로버 개발. NVIDIA Jetson 중앙 컴퓨터가 CAN 2.0 버스로 마이크로컨트롤러 슬레이브를 제어하는 ROS2 아키텍처. RTAB-Map 스테레오 SLAM, EKF 센서 퓨전, ArUco 기반 위치추정, Nav2, 강화학습(SAC/PPO)을 활용한 GPS 비의존 자율주행. C++17, Ubuntu 22.04 기반 ROS2 Humble. #text(size: 8pt, fill: gray)[2025년 8월 - 현재]
 
 - *객체지향 프로그래밍 (Java 25) - 조교 \@ITBA* \
   고급 OOP 개념 학습 지원. #text(size: 8pt, fill: gray)[2025년 8월 - 현재]

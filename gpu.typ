@@ -39,7 +39,7 @@ Computer Engineering student at ITBA with deep expertise in performance-critical
   Led the embedded control software for a real-time autonomous drilling system on Raspberry Pi 4, winning the Drillbotics World Championship. Architecture design, real-time CAN communication, autonomous navigation, closed-loop directional control, and safety supervision. Cross-team coordination with Electronics and Mechanical Engineering. Industry collaboration with YPF and Corva. C++17. #text(size: 8pt, fill: gray)[Mar 2026 - 2026]
 
 - *IEEE Robotics Research Team \@ITBA - Software and Automation Team Lead* \
-  Leading the Software and Automation team developing a rover for the European Rover Challenge (ERC), a Mars simulation competition in Poland. C++17. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
+  Leading the Software and Automation team developing a rover for the European Rover Challenge (ERC), a Mars simulation competition in Poland. Centralized ROS2 architecture on an NVIDIA Jetson commanding microcontroller slaves over a CAN 2.0 bus; GPS-denied autonomous navigation with RTAB-Map stereo SLAM, EKF sensor fusion, ArUco fiducial localization, Nav2, and Reinforcement Learning (SAC/PPO). C++17, ROS2 Humble on Ubuntu 22.04. #text(size: 8pt, fill: gray)[Aug 2025 - Present]
 
 - *Computer Architecture - Teaching Assistant \@ITBA* \
   Supporting students in low-level systems, memory architecture, and assembly programming. #text(size: 8pt, fill: gray)[Mar 2026 - Present]
